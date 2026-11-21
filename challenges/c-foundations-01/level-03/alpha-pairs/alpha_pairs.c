@@ -7,9 +7,9 @@ void my_putchar(char c)
 
 int	main(void)
 {
-	int i = 1;
+	int i = 0;
 	char c = 'a';
-	while(i < 27)
+	while(i++ < 26)
 	{
 		if(i % 2 == 0){
 			my_putchar(c - 32);
@@ -19,7 +19,6 @@ int	main(void)
 			my_putchar(c);
 			my_putchar(c);
 		}
-		i++;
 		c++;
 	}
 	my_putchar('\n');
