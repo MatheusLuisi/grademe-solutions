@@ -1,8 +1,6 @@
 #include <unistd.h>
 
-int	main(int argc, char **argv)
+int	main(void)
 {
-	(void)argc;
-	(void)argv;
 	write(1, "e\n", 2);
 }
