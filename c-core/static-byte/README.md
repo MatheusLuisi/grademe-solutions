@@ -6,6 +6,6 @@ Write a program that outputs the letter 'e' followed by a newline
 **Allowed functions:** write
 
 Solved in practice.
-Validated 5 times. Earlier versions are in this file's git history.
+Validated 6 times. Earlier versions are in this file's git history.
 
 [Read the full exercise on Grademe](https://grademe.io/app/exercise/static-byte)

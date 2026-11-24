@@ -2,12 +2,8 @@
 
 int	main(void)
 {
-	int i; 
-	char *str;
-
-	i = 0;
-	str = "e\n";
-	while(str[i])
-		i++;
-	write(1, str, i);
+	char c = 'e';
+	write(1, &c, 1);
+	c = '\n';
+	write(1, &c, 1);
 }
